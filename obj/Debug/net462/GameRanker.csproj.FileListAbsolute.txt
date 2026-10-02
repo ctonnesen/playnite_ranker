@@ -1,0 +1,17 @@
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.csproj.AssemblyReference.cache
+D:\Code\Playnite_Ranker\obj\Debug\net462\GeneratedInternalTypeHelper.g.cs
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker_MarkupCompile.cache
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker_MarkupCompile.lref
+D:\Code\Playnite_Ranker\obj\Debug\net462\RankedListView.g.cs
+D:\Code\Playnite_Ranker\bin\Debug\net462\GameRanker.dll
+D:\Code\Playnite_Ranker\bin\Debug\net462\GameRanker.pdb
+D:\Code\Playnite_Ranker\bin\Debug\net462\JetBrains.Annotations.dll
+D:\Code\Playnite_Ranker\obj\Debug\net462\RankedListView.baml
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.g.resources
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.AssemblyInfoInputs.cache
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.AssemblyInfo.cs
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.csproj.CoreCompileInputs.cache
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.csproj.Up2Date
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.dll
+D:\Code\Playnite_Ranker\obj\Debug\net462\GameRanker.pdb

@@ -1,0 +1,63 @@
+<Project>
+  <PropertyGroup>
+    <AssemblyName>GameRanker</AssemblyName>
+    <IntermediateOutputPath>obj\Debug\</IntermediateOutputPath>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>D:\Code\Playnite_Ranker\obj\</MSBuildProjectExtensionsPath>
+    <_TargetAssemblyProjectName>GameRanker</_TargetAssemblyProjectName>
+    <RootNamespace>GameRanker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <RootNamespace>GameRanker</RootNamespace>
+    <LangVersion>9.0</LangVersion>
+    <UseWPF>true</UseWPF>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultPageItems>false</EnableDefaultPageItems>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameRankerPlugin.cs" />
+    <Compile Include="Models.cs" />
+    <Compile Include="RankedListView.xaml.cs" />
+    <Compile Include="RankedListViewModel.cs" />
+    <Compile Include="RankStore.cs" />
+    <Compile Include="GongSolutions\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2025.2.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\jetbrains.annotations\2025.2.4\lib\net20\JetBrains.Annotations.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\mscorlib.dll" />
+    <ReferencePath Include="C:\Users\chris\AppData\Local\Playnite\Newtonsoft.Json.dll" />
+    <ReferencePath Include="C:\Users\chris\AppData\Local\Playnite\Playnite.SDK.dll" />
+    <ReferencePath Include="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\PresentationCore.dll" />
+    <ReferencePath Include="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Core.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Data.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Drawing.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.IO.Compression.FileSystem.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Numerics.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Runtime.Serialization.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Windows.Controls.Ribbon.dll" />
+    <ReferencePath Include="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xaml.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Xml.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\UIAutomationClient.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\UIAutomationClientsideProviders.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\UIAutomationProvider.dll" />
+    <ReferencePath Include="C:\Users\chris\.nuget\packages\microsoft.netframework.referenceassemblies.net462\1.0.3\build\.NETFramework\v4.6.2\UIAutomationTypes.dll" />
+    <ReferencePath Include="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WPF\WindowsBase.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\Code\Playnite_Ranker\obj\Debug\net462\RankedListView.g.cs" />
+    <Compile Include="D:\Code\Playnite_Ranker\obj\Debug\net462\GeneratedInternalTypeHelper.g.cs" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+</Project>

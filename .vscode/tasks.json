@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Install",
+      "type": "shell",
+      "command": "dotnet build && copy bin\\Debug\\net462\\GameRanker.dll \"%AppData%\\Roaming\\Playnite\\Extensions\\GameRanker\\\" && copy plugin.json \"%AppData%\\Roaming\\Playnite\\Extensions\\GameRanker\\\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}
